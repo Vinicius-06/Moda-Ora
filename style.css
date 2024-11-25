@@ -1,0 +1,171 @@
+html, body{
+    font-size: 62.5%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: #162028;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.t1{
+    font-size: 6em;
+}
+
+.header1 nav ul{
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: 2em;
+}
+
+.nav ul li{
+    letter-spacing: 3px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.nav li a{
+    text-decoration: none;
+    transition: color .3s linear;
+    color: #ccc;
+}
+
+.nav li a:hover{
+    transition: color .3s linear;
+    color: rgb(221, 44, 44);
+}
+
+.modelo-topo img{
+    width: 100%;
+}
+
+
+/*  */
+main{
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.texto1{
+    text-align: center;
+    padding: 150px;
+    font-size: 3em;
+}
+
+.texto1 h1{
+    font-size: 36px;
+    /* align-items: justify; */
+}
+
+.texto1 p{
+    line-height: 1.6;
+}
+
+main ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    padding-bottom: 9em;
+}
+
+
+
+/*  */
+
+.modelo1-p1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.modelo1-p2{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+.modelo2-p1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.modelo2-p2{
+    text-align: center;
+    font-size: 2.5em;
+
+}
+
+
+.modelo3-p1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.modelo3-p2{
+    text-align: center;
+    font-size: 2.5em;
+
+}
+
+
+
+
+/*  */
+
+.footer1{
+    background: url(images/bg_detalhe.png);
+    background-size: cover;
+    padding: 160px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.footer1 h2{
+    text-align: left;
+    font-size: 3rem;
+    text-align: left;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-bottom: 3em;
+}
+
+.footer1 p{
+    margin: 2rem auto;
+    width: 65vw;
+    padding-right: 25vw;
+    box-sizing: border-box;
+    color: white;
+
+    /* text-align: left;
+    margin-top: 12rem;
+    padding: 10px;
+    line-height: 1.5;*/
+    font-size: 3em;
+}
+
+
+.footer1 h2{
+    text-align: center;
+}
+
+.footer2{
+    background-color: #0b171f;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
